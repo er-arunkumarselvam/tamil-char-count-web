@@ -1,0 +1,29 @@
+{
+  "name": "tamil-char-count-web",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Tamil characters count utility for analyzing vowels and consonants in tamil text.",
+  "author": "Arunkumar Selvam",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "check": "tsc",
+    "dev": "vite",
+    "build": "npm run check && vite build",
+    "preview": "npm run build && vite preview",
+    "preversion": "npm run check",
+    "release": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tamil-characters-count": "^1.0.0"
+  }
+}
